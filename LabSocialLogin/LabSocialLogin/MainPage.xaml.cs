@@ -14,7 +14,6 @@ namespace LabSocialLogin
         {
             InitializeComponent();
             BindingContext = new MainPageViewModel();
-
         }
     }
 }
