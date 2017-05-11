@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:LabSocialLogin"
+             x:Class="LabSocialLogin.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        <Button Text="Login with Facebook" BackgroundColor="Blue" TextColor="White" FontSize="Medium" x:Name="btnLogin" Command="{Binding LoginCommand}"/>
+        <Label TextColor="Black" HorizontalTextAlignment="Center" FontSize="Medium" x:Name="lblInfo" Text="{Binding Info}"/>
+    </StackLayout>
+
+</ContentPage>
